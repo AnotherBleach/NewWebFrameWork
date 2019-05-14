@@ -3,7 +3,8 @@ package cn.edu.bupt.bean;
 import java.util.Map;
 
 public class Args {
-
+    // 参数测试
+    // 测试测试
     private Map<String, Object> params;
 
     public Map<String, Object> getParams() {
