@@ -104,6 +104,23 @@
                     <target>8</target>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>2.3.2</version>
+                <configuration>
+                    <archive>
+                        <index>true</index>
+                        <manifestFile>
+                            src/main/resources/META_INF/MANIFEST.MF
+                        </manifestFile>
+                        <manifest>
+                            <addDefaultImplementationEntries/>
+                        </manifest>
+                    </archive>
+
+                </configuration>
+            </plugin>
 
 
         </plugins>
