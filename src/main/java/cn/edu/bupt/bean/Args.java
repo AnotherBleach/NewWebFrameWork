@@ -5,6 +5,9 @@ import java.util.Map;
 public class Args {
     // 封装参数
     
+    // 参数测试
+    // 测试测试
+
     private Map<String, Object> params;
 
     public Map<String, Object> getParams() {
